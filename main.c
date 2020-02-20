@@ -14,7 +14,7 @@ tree_t * new_tree(tree_t * l, char * val, tree_t * r) {
   tree_t * n = malloc(sizeof(tree_t));
   n->l=l;
   n->r=r;
-  n->val=val;
+  n->val=val; // TODO: Do something with string.
   return n;
 }
 
